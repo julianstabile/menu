@@ -126,8 +126,8 @@ button:hover {
 }
 
 .producto {
-  width: 30%;
-  margin-bottom: 20px;
+  width: 350px;
+  margin: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
@@ -246,6 +246,55 @@ body {
   float: none;
   display: table;
   color: #4ad1e5;
+}
+
+/*mapa*/
+.body-mapa {
+  background-color: #333;
+  place-content: center center;
+}
+
+svg path {
+  fill: #4ad1e5;
+  -webkit-text-stroke-color: #ececec;
+  stroke-width: 2px;
+}
+
+path:hover {
+  fill: blue;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.mapa-img {
+  width: 80%;
+}
+
+.mapa-continentes {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.mapa-svg {
+  display: block;
+}
+
+.recetas-continentes {
+  text-align: center;
+}
+
+.flecha {
+  padding: 20px;
+  position: fixed;
+  top: 90%;
+  right: 25px;
+  background: white;
+  border-radius: 50%;
+  opacity: 80%;
+  rotate: 180deg;
 }
 
 /*# sourceMappingURL=style.css.map */
