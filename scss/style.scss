@@ -179,7 +179,6 @@ body {
       position: relative;
       display:inline;
       display: inline-block;
-      float: left;
       margin-right: 2%;
       margin-bottom: 20px;
   }
@@ -196,10 +195,6 @@ body {
 .body-mapa {
     background-color: #333;
     place-content: center center;
-}
-
-svg {
-    
 }
 
 svg path {
