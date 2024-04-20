@@ -1,0 +1,194 @@
+/*afecta a todo*/
+
+
+
+body {
+    background-color: #f0f0f0; /* Puedes cambiar el color aquí */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente aquí */
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl  {
+    background-color: #f0f0f0; /* Puedes cambiar el color aquí */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente aquí */
+
+}
+
+.bg-light {
+    background-color: #f0f0f0 !important;
+}
+
+button {
+    margin: 0.4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #ececec;
+    text-decoration: none;
+    color: #666;
+    opacity: 100%;
+    border: solid 0.1rem;
+}
+
+button:hover {
+    border-radius: 0.5rem;
+    opacity: 100%;
+    background-color: #666;
+    color: #ececec;
+}
+
+.btn-ver-menu {
+    opacity: 75%;
+    border-color: #666;
+    text-align: center;
+}
+
+/*home*/
+
+/*primer banner*/
+
+.home-background-banner {
+    background-color: black;
+}
+
+.home-banner {
+    background-image: url(../assets/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    align-content: center;
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 15%;
+    color: #f0f0f0;
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/* Estilos para las características */
+.caracteristicas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.caracteristicas .caracteristica {
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Estilos para las entradas del blog */
+.entradas-blog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.entrada-blog {
+    width: 30%;
+    margin-bottom: 20px;
+}
+.entrada-blog img {
+    width: 100%;
+    height: auto;
+}
+/* Estilos para la información en números */
+.info-numeros {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.info-numeros .numero {
+    text-align: center;
+    width: 23%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Estilos para los productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.producto {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Estilos para la galería */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*nuestros cafes*/
+
+body {
+    font-family: Arial;
+    padding: 25px;
+    background-color: #f5f5f5;
+    color: #808080;
+        text-align: center;	
+  }
+  
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  /* Column Grids */
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  
+  .col_half { width: 49%; }
+  .col_third { width: 32%; }
+  .col_fourth { width: 23.5%; }
+  .col_fifth { width: 18.4%; }
+  .col_sixth { width: 15%; }
+  .col_three_fourth { width: 74.5%;}
+  .col_twothird{ width: 66%;}
+  .col_half,
+  .col_third,
+  .col_twothird,
+  .col_fourth,
+  .col_three_fourth,
+  .col_fifth{
+      position: relative;
+      display:inline;
+      display: inline-block;
+      float: left;
+      margin-right: 2%;
+      margin-bottom: 20px;
+  }
+  .end { margin-right: 0 !important; }
+  /* Column Grids End */
+  
+  .wrapper { width: 980px; margin: 30px auto; position: relative;}
+  .counter { background-color: #ffffff; padding: 20px 0; border-radius: 5px;}
+  .count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+  .count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+  .fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+  
