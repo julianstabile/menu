@@ -254,13 +254,13 @@ body {
 }
 
 svg path {
-  fill: #4ad1e5;
+  fill: #b5b5b5;
   -webkit-text-stroke-color: #ececec;
   stroke-width: 2px;
 }
 
 path:hover {
-  fill: blue;
+  fill: rgba(255, 255, 255, 0.8901960784);
 }
 
 * {
@@ -299,6 +299,15 @@ path:hover {
 .mapa-descripcion {
   text-align: justify;
   text-align-last: center;
+}
+
+.mapa-linkedin {
+  text-decoration: none;
+  color: #808080;
+}
+
+.mapa-footer-texto {
+  color: #808080;
 }
 
 /*# sourceMappingURL=style.css.map */
